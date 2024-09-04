@@ -160,3 +160,31 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+#############
+
+# Logs
+formulario_react/logs
+formulario_react/*.log
+formulario_react/npm-debug.log*
+formulario_react/yarn-debug.log*
+formulario_react/yarn-error.log*
+formulario_react/pnpm-debug.log*
+formulario_react/lerna-debug.log*
+
+formulario_react/node_modules
+formulario_react/dist
+formulario_react/dist-ssr
+formulario_react/*.local
+
+# Editor directories and files
+formulario_react/.vscode/*
+formulario_react/!.vscode/extensions.json
+formulario_react/.idea
+formulario_react/.DS_Store
+formulario_react/*.suo
+formulario_react/*.ntvs*
+formulario_react/*.njsproj
+formulario_react/*.sln
+formulario_react/*.sw?
